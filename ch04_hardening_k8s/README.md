@@ -135,22 +135,22 @@ https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-nati
 - **開発 (Develop) フェーズ**
   - アプリケーションコードやIaCなどを成果物として生成します。アプリケーションへの攻撃リスクを早期に減らすため、最初のフェーズでセキュリティチェックやテストを実施します。
 
-![sdlc-develop](https://github.com/cncf/tag-security/raw/main/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-develop.png)
+![sdlc-develop](https://github.com/cncf/tag-security/raw/main/community/resources/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-develop.png)
 
 - **配布 (Distribute) フェーズ**
   - コンテナイメージやVMイメージなどの成果物を構築する際に、イメージのスキャンや完全性の検証など、セキュリティに特化したステップを組み込みこみます。
 
-![sdlc-distribute](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-distribute.png?raw=true)
+![sdlc-distribute](https://github.com/cncf/tag-security/raw/main/community/resources/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-distribute.png)
 
 - **デプロイ (Deploy) フェーズ**
   - ランタイム環境にデプロイされるアプリケーションが、組織全体のセキュリティおよびコンプライアンスポリシーに適合し、準拠していることを確認するための一連のチェックを組み込みます。
 
-![sdlc-deploy](https://github.com/cncf/tag-security/raw/main/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-deploy.png)
+![sdlc-deploy](https://github.com/cncf/tag-security/raw/main/community/resources/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-deploy.png)
 
 - **実行 (Runtime) フェーズ**
   - コンピュート、アクセス、ストレージの3つの領域から構成され、各領域においてアプリケーションの実行環境のセキュリティ対策を講じます。
 
-![sdlc-runtime](https://github.com/cncf/tag-security/raw/main/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-runtime.png)
+![sdlc-runtime](https://github.com/cncf/tag-security/raw/main/community/resources/security-whitepaper/v2/cnswp-images/cnswp-v2-security-structural-model-runtime.png)
 
 ## 4Cモデルと開発ライフサイクル
 
