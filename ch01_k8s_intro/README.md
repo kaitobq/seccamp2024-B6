@@ -224,7 +224,7 @@ https://kubernetes.io/ja/docs/concepts/overview/working-with-objects/namespaces/
 
 Namespace はクラスタ内のリソースを分離し、管理を簡素化するための仮想クラスタです。複数の環境（開発、テスト、本番など）を一つのクラスタで管理する場合や、複数のチーム・プロジェクトにまたがる多くのユーザーが存在する場合に使用します。
 
-Namespace は RBAC によるリソースへのアクセス制限、リソースクォータによるリソース使用量の制限、NetowrkPolicy による通信制限を可能にします。
+Namespace は RBAC によるリソースへのアクセス制限、リソースクォータによるリソース使用量の制限、NetworkPolicy による通信制限を可能にします。
 
 ## Role/ClusterRole
 
