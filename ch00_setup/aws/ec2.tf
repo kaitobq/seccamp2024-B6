@@ -18,15 +18,13 @@ module "ec2" {
     http_tokens = "required"
   }
 
-  root_block_device = [
-    {
-      encrypted   = true
-      volume_type = "gp3"
-      # throughput  = 100
-      volume_size = each.value.volume_size
-      tags        = local.tags
-    },
-  ]
+  root_block_device = {
+    encrypted   = true
+    volume_type = "gp3"
+    # throughput  = 100
+    volume_size = each.value.volume_size
+    tags        = local.tags
+  }
 
   tags = local.tags
 }
